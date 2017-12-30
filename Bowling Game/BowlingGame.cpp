@@ -83,9 +83,9 @@ class BowlingGame {
 int main(){
 	srand (time(NULL));
 	
-	Player p1("Sourabh");
-	Player p2("Shivani");
-	Player p3("Piyush");
+	Player p1("Player 1");
+	Player p2("Player 2");
+	Player p3("Player 3");
 
 	BowlingGame Game(5,10);
 	Game.addPlayer(p1);
